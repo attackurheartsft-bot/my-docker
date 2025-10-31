@@ -1,4 +1,4 @@
-from Ubuntu:24.04
+from ubuntu:24.04
 
 env debian_frontend = nointeractive
 
