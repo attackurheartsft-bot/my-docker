@@ -4,7 +4,7 @@ env debian_frontend = nointeractive
 
 run apt-get update && apt-get -y install nginx
 
-copy ./web /var/www/HTML
+copy ./app /var/www/HTML
 
 expose 8080
 
